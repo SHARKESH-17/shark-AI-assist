@@ -44,8 +44,7 @@ if command:
             data = ai(command)
             st.write(data)
             st.session_state.message.append({"role":"BOT","message":data})
-
-
-
-
-print(st.session_state.message)
+            
+            
+            
+            print(st.session_state.message)
